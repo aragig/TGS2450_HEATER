@@ -18,8 +18,8 @@ TGS2450_HEATER::TGS2450_HEATER(uint8_t out_pin, uint8_t sen_pin, uint8_t htr_pin
     SEN_PIN = sen_pin;
     HTR_PIN = htr_pin;
 
-    pinMode(OUT_PIN, OUTPUT);
-    pinMode(SEN_PIN, INPUT);
+    pinMode(OUT_PIN, INPUT);
+    pinMode(SEN_PIN, OUTPUT);
     pinMode(HTR_PIN, OUTPUT);
 
 }
