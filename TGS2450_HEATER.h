@@ -14,8 +14,6 @@ public:
     uint16_t readOdor();
 
 
-
-
 };
 
 
